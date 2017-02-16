@@ -1,6 +1,6 @@
 Thank you for downloaidng StartupX
 
-Startup X is a simple coming soon page you can use as landing page for your upcoming website or project.
+StartupX is a simple coming soon page you can use as landing page for your upcoming website or project.
 
 Its simple HTML template which you can use to collect emails, receiving communication emails or just to show your potential customers that you're cooking something!
 
