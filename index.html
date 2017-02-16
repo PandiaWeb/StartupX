@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StartupX - Creative Coming Soon Template</title>
+
+    <!-- Bootstrap -->
+    	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custome-css -->
+    	<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="screen">
+	<!-- particles-css -->
+    	<link href="assets/css/particles.css" rel="stylesheet" type="text/css" media="screen">
+    <!-- font awesome for icons -->
+    	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- google font -->
+    	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet"> 
+    <!-- Fav and touch icons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/favicon-icon/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
+        <link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+
+<div id="main-content" class="main_wrap">
+<!--Header-->
+<header id="header">
+    <div class="col-lg-6 col-xs-6">
+        <div class="logo">
+            <a href="#"><img src="assets/images/logo.png" alt="logo-image"></a>
+        </div>
+    </div>   
+
+    <div class="col-lg-6 col-xs-6 padding">
+        <div class="contact_btn text-right">
+            <button type="button" data-toggle="modal" data-target="#contact_form"><i class="fa fa-envelope" aria-hidden="true"></i> </button>
+        </div>
+    </div>
+</header>
+<!--/Header-->
+
+<div class="content_wrap div_zindex">
+	<div class="col-md-6 vc_col bg_img">
+    	<div class="vc_column-inner">
+            <h1>Coming Soon</h1>
+            <h5 class="light-weight">Our website is under construction. We'll be here soon with our new awesome site, subscribe to be notified.</h5>
+            <a href="#" class="btn btn2" data-toggle="modal" data-target="#about_us">Read More</a>
+        </div>
+        <!--Overlay-->
+	    <div class="overlay"></div>
+    </div>
+	<div class="col-md-6 vc_col">
+    	<div class="vc_column-inner">
+            <h5>Time Left To Launch</h5>
+            <div id="countdown"></div>
+            
+            <div class="newsletter">	
+            	<h6>Get notified at launch</h6>
+            	<form class="newsletter-js-ajax-form" id="newsletter"> 
+                    <div class="form-group">
+                        <input class="form-control" name="email" id="email" placeholder="Email Address" required="" type="email">
+                    </div>
+                    <button class="btn newsletter_btn" name="submit" type="submit">Notify me</button>
+                </form>
+                
+                <!-- Newsletter-success-message -->
+        <div id="newsletter_success" class="message-text">	
+              <p class="modal-subtitle">Thank You! You have subscribed to our newsletter</p>
+        </div>
+        <!--/Newsletter-success-message-->
+        
+        <!-- Newsletter error -->
+        <div id="newsletter_error" class="message-text">
+            <p class="modal-subtitle">Sorry! Something went wrong </p>
+        </div>                     
+        <!--/Newsletter-error-->
+        
+            </div>
+            
+        </div>
+    </div>    
+</div>
+
+
+
+<!--Footer-->
+<footer id="footer">
+    <div class="col-lg-6 col-sm-6">
+    	<div class="copyright_text">
+	        <p>&copy; Copyright 2017. All Rights Reserved.</p>
+        </div>
+    </div>
+    
+    <div class="col-lg-6 col-sm-6 text-right">
+        <div class="social_links">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!--/Footer-->
+
+</div>
+      
+ <!-- particles.js container -->
+<div id="particles-js"></div>
+
+
+<!--Contact-Form-->
+<div class="modal fade" id="contact_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+		<h6>Please email us if you have questions.</h6>
+        <form action="" class="contact-js-ajax-form">
+        	<div class="form-group">
+            	<input type="text" class="form-control" name="name" required="" placeholder="Name">
+            </div>
+            <div class="form-group">
+            	<input type="email" class="form-control" name="contactemail" required="" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+            	<textarea name="message" cols="" rows="4" placeholder="Message" required="" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+            	<input type="submit" class="btn" name="send" value="Send Message">
+            </div>
+        </form>
+        
+        <!-- Contect-success-message -->
+        	<div id="contact_success" class="message-text">	
+              <p class="modal-subtitle">Thank You! You message send. </p>
+        	</div>
+        <!--/Contect-success-message-->
+        <!-- Contect error -->
+        	<div id="contact_error" class="message-text">
+	            <p class="modal-subtitle">Sorry! Something went wrong </p>
+    	    </div>                     
+        <!--/Contect-error-->        
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--/Contact-Form-->
+
+<!--About-Us-->
+<div class="modal fade" id="about_us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+		<h6>StartUp - Creative Coming Soon Template</h6>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--/About-Us-->
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script> 
+<script src="assets/js/jquery.validate.min.js"></script> 
+<script src="assets/js/bootstrap.min.js"></script> 
+<script src="assets/js/particles.min.js"></script> 
+<script src="assets/js/app.js"></script> 
+<script src="assets/js/interface.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+ 
+</body>
+</html>
